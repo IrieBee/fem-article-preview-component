@@ -17,7 +17,8 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 ### What I learned
 
-* 
+* Image stay the same height when make screen wider without overflowing on text -> {max-height: ...rem; overflow: hidden;}
+
 
 ## Links
 
@@ -32,3 +33,4 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 * Odin project
 * Frontend Mentor
+* Ion icons
