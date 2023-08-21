@@ -4,14 +4,15 @@
     --clr-grayish: hsl(212, 23%, 69%);
     --clr-light: hsl(210, 46%, 95%);
 
-    --fs-l: 1.5rem;
+    --fs-xl: 1.5rem;
+    --fs-l: 1rem;
     --fs-m: 0.8125rem;
     --fs-s: 0.65rem;
 
     --fw-m: 500;
     --fw-l: 700;
 
-    --ff: font-family: 'Manrope', sans-serif;
+    --ff: 'Manrope', sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,5 +31,64 @@ body {
     font-size: var(--fs-m);
     font-weight: var(--fw-m);
     background-color: var(--clr-light);
+    color: var(--clr-middle);
+}
+
+main {
+    background: white;
+    max-width: 40rem;
+    margin: auto 1.7rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.hero> img {
+    max-width: 100%;
+}
+
+.content {
+    padding: 3rem 2rem 1rem;
+}
+
+h1 {
     color: var(--clr-dark);
+    font-size: var(--fs-l);
+    line-height: 1.5;
+}
+
+.content> p {
+    padding: 1em 0 2em;
+    line-height: 1.6;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact_info> img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.name {
+    color: var(--clr-dark);
+    font-weight: var(--fw-l);
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+ion-icon {
+    font-size: var(--fs-xl);
 }
