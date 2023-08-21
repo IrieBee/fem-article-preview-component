@@ -92,3 +92,12 @@ button {
 ion-icon {
     font-size: var(--fs-xl);
 }
+
+.attribution { 
+    font-size: var(--fs-s); 
+    margin-bottom: 0.5em;
+}
+
+.attribution a {
+    color: var(--clr-dark); 
+}
