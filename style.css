@@ -1,0 +1,15 @@
+:root {
+    --clr-dark: hsl(217, 19%, 35%);
+    --clr-middle: hsl(214, 17%, 51%);
+    --clr-grayish: hsl(212, 23%, 69%);
+    --clr-light: hsl(210, 46%, 95%);
+
+    --fs-l: 1.5rem;
+    --fs-m: 0.8125rem;
+    --fs-s: 0.65rem;
+
+    --fw-m: 500;
+    --fw-l: 700;
+
+    --ff: font-family: 'Manrope', sans-serif;
+}
