@@ -89,8 +89,24 @@ button {
     padding: 0.5em;
 }
 
+.social {
+    display: flex;
+    background-color: var(--clr-dark);
+    color: var(--clr-grayish);
+    gap: 0.75rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: var(--fs-m);
+    letter-spacing: 0.3em;
+    font-weight: var(--fw-m);
+}
+
 ion-icon {
     font-size: var(--fs-xl);
+    color: white;
 }
 
 .attribution { 
