@@ -42,6 +42,11 @@ main {
     overflow: hidden;
 }
 
+.hero {
+    max-height: 13.5rem;
+    overflow: hidden;
+}
+
 .hero> img {
     max-width: 100%;
 }
