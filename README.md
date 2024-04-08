@@ -6,7 +6,7 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-article-preview-component/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-article-preview-component/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -22,12 +22,13 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-article-preview-component
-* Live Site URL: https://ltsybitsy.github.io/fem-article-preview-component/
+* Solution URL: https://github.com/IrieBee/fem-article-preview-component
+* Live Site URL: https://IrieBee.github.io/fem-article-preview-component/
 
 ## Useful resources
 
-* 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+* https://css-tricks.com/almanac/properties/c/clip-path/
 
 ## Acknowledgements
 
