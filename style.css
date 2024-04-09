@@ -52,25 +52,27 @@ main {
 }
 
 .content {
-    padding: 3rem 2rem 0;
+    padding-top: 3rem;
 }
 
 h1 {
     color: var(--clr-dark);
     font-size: var(--fs-l);
     line-height: 1.5;
+    padding: 1rem 2rem 1rem;
 }
 
 .content> p {
-    padding: 1em 0 2em;
+    padding: 1em 2rem 2em;
     line-height: 1.6;
 }
 
+/* padding bottom 1rem */
 .contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0.5rem 2rem;
 }
 
 .contact_info {
@@ -102,7 +104,7 @@ button {
     color: var(--clr-grayish);
     gap: 0.75rem;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 h2 {
@@ -123,6 +125,11 @@ ion-icon {
 
 .attribution a {
     color: var(--clr-dark); 
+}
+
+button:hover, button:focus {
+    background-color: var(--clr-dark);
+    color: white;
 }
 
 @media (min-width: 600px) {
@@ -148,4 +155,5 @@ ion-icon {
     .content> p {
         padding: 1em 0 .5em;
     }
+
 }
