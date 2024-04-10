@@ -17,8 +17,13 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 ### What I learned
 
-* Image stay the same height when make screen wider without overflowing on text -> for 'div' where image is -> {max-height: ...rem; overflow: hidden;}
-
+* Image stay the same height when make screen wider without overflowing on text
+```css
+  .hero {
+    max-height: 13.5rem;
+    overflow: hidden;
+}
+```
 
 ## Links
 
