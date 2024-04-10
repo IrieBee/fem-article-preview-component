@@ -34,6 +34,7 @@ This is a solution to the Article preview component challenge from Frontend Ment
 
 * https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 * https://css-tricks.com/almanac/properties/c/clip-path/
+* https://gomakethings.com/icon-accessibility-and-aria-label/
 
 ## Acknowledgements
 
